@@ -29,7 +29,7 @@ export default function SearchBar({ onSearch, autoFocus = false, className = '' 
         onChange={e => setQuery(e.target.value)}
         placeholder="Search by title, author, or keyword…"
         autoFocus={autoFocus}
-        className="w-full pl-12 pr-4 py-3.5 text-sm border border-gray-200 rounded-xl bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-400 transition"
+        className="w-full pl-12 pr-4 py-3.5 text-sm text-gray-900 placeholder:text-gray-400 border border-gray-200 rounded-xl bg-white shadow-sm focus:outline-none focus:ring-2 focus:ring-primary-400 transition"
       />
       {query && (
         <button

@@ -22,9 +22,13 @@ export function parseOptions(text) {
 // Strip all format tags from text for display
 export function cleanText(text) {
   return text
-    .replace(/\[BOOKS:[\s\S]*?END_BOOKS\]/g, '')
-    .replace(/\[OPTIONS:.*?\]/g, '')
-    .trim()
+    .replace(/\[BOOKS:.*?END_BOOKS\]/gs, '')
+    
+    .replace(/\[OPTIONS:.*?\]/gs, '')
+    
+    .replace(/\s+/g, ' ')
+    
+    .trim();
 }
 
 // Parse full Claude response into structured parts
