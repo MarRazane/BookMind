@@ -8,9 +8,6 @@ It leverages **Claude AI** for natural interactions and **Open Library APIs** fo
 
 ##  Preview
 
-![BookMind Screenshot](./assets/screenshot.png)
-![BookMind Screenshot](./assets/chatbot.png)
-
 ---
 
 ##  Architecture
