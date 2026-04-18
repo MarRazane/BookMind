@@ -1,6 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  safelist: [
+    { pattern: /bg-(primary|teal|coral|amber|pink|green|blue|gray)-(50|100|200|400|600|800|900)/ },
+    { pattern: /text-(primary|teal|coral|amber|pink|green|blue|gray)-(50|100|200|400|600|800|900)/ },
+    { pattern: /border-(primary|teal|coral|amber|pink|green|blue|gray)-(50|100|200|400|600|800|900)/ },
+  ],
   theme: {
     extend: {
       colors: {
