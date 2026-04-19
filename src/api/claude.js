@@ -1,4 +1,4 @@
-const API_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY
+const API_KEY = import.meta.env.VITE_AI_API_KEY
 console.log('VITE ENV:', API_KEY?.slice(0,8))
 const MODEL   = 'claude-sonnet-4-20250514'
 
