@@ -6,7 +6,7 @@
 
   "scripts": {
   "dev": "vite",
-  "build": "tailwindcss -i ./src/index.css -o ./src/index.built.css && vite build",
+  "build": "vite build",
   "preview": "vite preview",
   "test": "vitest"
     },
