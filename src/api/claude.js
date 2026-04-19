@@ -1,5 +1,5 @@
 const API_KEY = import.meta.env.VITE_ANTHROPIC_API_KEY
-console.log('KEY PREFIX:', API_KEY?.substring(0, 15)) 
+console.log('VITE ENV:', API_KEY?.slice(0,8))
 const MODEL   = 'claude-sonnet-4-20250514'
 
 // System prompt
